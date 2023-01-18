@@ -1,0 +1,47 @@
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: blueviolet;
+}
+
+.title{
+    
+    color: #FFF;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+
+}
+
+.cabecalho input{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.categorias{
+    width: 100%;
+    height: 5%;
+    justify-content: flex-center;
+}
+
+.produtos{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 65%;
+    justify-content: space-between;
+}
+
+
+.footer{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    height: 20%;
+}

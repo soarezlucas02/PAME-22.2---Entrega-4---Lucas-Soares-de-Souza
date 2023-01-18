@@ -1,16 +1,19 @@
 import './style.css'
-import imagem1 from './Assets/imagem1.png'
-import croxa from './Assets/croxa.jpg'
+import cbranca from './Assets/cbranca.jpg'
+
 
 function App() {
   return (
     <div className="container">
 
       <div className="cabecalho">
-        <h1 className='title'>Fashion Zone</h1>
-        <input type="text" placeholder="O que você procura?"></input>
+        <div className='title'>
+        <h1 >Fashion Zone</h1>
+        </div>
+        <div className='pesquisa'>
+        <input type="text"  placeholder="O que você procura?"></input>
         <button>Procurar</button>
-
+        </div>
       </div>
       <div className="categorias">
         <button className="ButtonCategoria">Camisas & Tops</button>
@@ -25,20 +28,20 @@ function App() {
 
       </div>
       <div className="produtos">
-        <img src={croxa} alt='imagem1'/>
-        <img src={croxa} alt='imagem1'/>
-        <img src={croxa} alt='imagem1'/>
+        <img src={cbranca} alt='imagem1'/>
+        <img src={cbranca} alt='imagem1'/>
+        <img src={cbranca} alt='imagem1'/>
       
       </div>
       <div className="footer">
-        <div>
+        <div className='contato'>
           <h3>Contato</h3>
           <p>
             Juliano Ferreira<br/>
             +552123919271
           </p>
         </div>
-        <div>
+        <div className='localizacao'>
           <h3>
             Localização
           </h3>

@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     background: #fff;
+    
 }
 
 .title{
@@ -11,7 +12,7 @@
     justify-content: center;
     align-items: center;
     width: 50%;
-    
+    margin-top: 20px;
 
 }
 
@@ -20,8 +21,17 @@
     justify-content: center;
     align-items: center;
     width: 50%;
+    margin-top: 20px;
 
 }
+
+.pesquisa input{
+    border:0;
+    font-size: 20px;
+    outline: none;
+    
+}
+
 
 .cabecalho{
     display: flex;
@@ -30,13 +40,14 @@
     width: 100%;
     height: 10%;
     background: black;
+    
 
 }
 
 
 .categorias{
     width: 100%;
-    height: 5%;
+    height: 10%;
     justify-content: flex-center;
 }
 
@@ -44,16 +55,40 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 65%;
+    height: 75%;
     justify-content: space-between;
+    
 }
 
+.camisa1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.3%;
+    flex-direction: column;
+}
+
+.camisa2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.3%;
+    flex-direction: column;
+}
+
+.camisa3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.3%;
+    flex-direction: column;
+}
 
 .footer{
     width: 100%;
     display: flex;
     align-items: flex-end;
-    height: 20%;
+    height: 10%;
     background: rgb(0, 0, 0);
 }
 

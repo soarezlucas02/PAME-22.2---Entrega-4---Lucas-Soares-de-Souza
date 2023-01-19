@@ -1,6 +1,7 @@
+import { FiSearch} from 'react-icons/fi'
 import './style.css'
+import './index'
 import cbranca from './Assets/cbranca.jpg'
-
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
         </div>
         <div className='pesquisa'>
         <input type="text"  placeholder="O que você procura?"></input>
-        <button>Procurar</button>
+        <button>
+          <FiSearch size="20"/>
+        </button>
         </div>
       </div>
       <div className="categorias">
@@ -28,9 +31,15 @@ function App() {
 
       </div>
       <div className="produtos">
+        <div className='camisa1'>
         <img src={cbranca} alt='imagem1'/>
+        </div>
+        <div className='camisa2'>
         <img src={cbranca} alt='imagem1'/>
+        </div>
+        <div className='camisa3'>
         <img src={cbranca} alt='imagem1'/>
+        </div>
       
       </div>
       <div className="footer">

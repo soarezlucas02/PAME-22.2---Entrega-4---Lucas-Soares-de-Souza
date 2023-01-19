@@ -1,6 +1,7 @@
 import { FiSearch} from 'react-icons/fi'
 import './style.css'
 import './index'
+
 import cbranca from './Assets/cbranca.jpg'
 
 function App() {
@@ -19,26 +20,30 @@ function App() {
         </div>
       </div>
       <div className="categorias">
-        <button className="ButtonCategoria">Camisas & Tops</button>
-        <button className="ButtonCategoria">Lingerie</button>
-        <button className="ButtonCategoria">Vestidos</button>
-        <button className="ButtonCategoria">Casacos</button>
-        <button className="ButtonCategoria">Praia</button>
-        <button className="ButtonCategoria">Calçados</button>
-        <button className="ButtonCategoria">Calças & shorts</button>
-        <button className="ButtonCategoria">Fitness</button>
-        <button className="ButtonCategoria">Entre/Cadastre-se</button>
+        <button>Camisas & Tops</button>
+        <button>Lingerie</button>
+        <button>Vestidos</button>
+        <button>Casacos</button>
+        <button>Praia</button>
+        <button>Calçados</button>
+        <button>Calças & shorts</button>
+        <button>Fitness</button>
+        <button>Entre/Cadastre-se</button>
 
       </div>
       <div className="produtos">
         <div className='camisa1'>
         <img src={cbranca} alt='imagem1'/>
+        <p>R$ 94,80</p>
         </div>
         <div className='camisa2'>
         <img src={cbranca} alt='imagem1'/>
+        <p>R$ 94,80</p>
         </div>
+        
         <div className='camisa3'>
         <img src={cbranca} alt='imagem1'/>
+        <p>R$ 94,80</p>
         </div>
       
       </div>
